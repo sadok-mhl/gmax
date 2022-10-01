@@ -364,6 +364,7 @@ text-decoration: underline;
         width: 18rem;
         flex-direction: column;
         gap: 0;
+        display: none;
     }
     .nav__menu li{
         width: 100%;
@@ -383,7 +384,7 @@ text-decoration: underline;
         animation-delay: 600ms;
     }
     @keyframes animateNavItems {
-        0%{
+        1%{
             transform: rotateZ(-90deg);
         }
         100%{
@@ -403,7 +404,6 @@ text-decoration: underline;
         background: var(--color-bg2);
         color: var(--color-white);
     }
-
 
     /**********header **********/
     header{
